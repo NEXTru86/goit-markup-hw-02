@@ -76,6 +76,10 @@ body {
     color: var(--accent-text-color);
 }
 
+.navigation-list-link.active {
+    color: var(--accent-text-color);
+}
+
 /* END HEADER */
 
 /* MAIN SECTION */
