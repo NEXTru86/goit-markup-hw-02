@@ -15,7 +15,7 @@ body {
     font-family: var(--main-font);
     font-style: normal;
     color: var(--text-color);
-    background: #ffffff;
+    background-color: #ffffff;
     
 }
 
@@ -200,6 +200,7 @@ body {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
 
