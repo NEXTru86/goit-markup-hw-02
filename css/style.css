@@ -14,6 +14,9 @@
 body {
     font-family: var(--main-font);
     font-style: normal;
+    color: var(--text-color);
+    background: #ffffff;
+    
 }
 
 .list {
@@ -91,7 +94,7 @@ body {
     background: #2F303A;
 }
 
-.modal-btn-dark-theme {
+.hero-btn {
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 700;
@@ -105,8 +108,8 @@ body {
     background: #2196F3;
 }
 
-.modal-btn-dark-theme:hover,
-.modal-btn-dark-theme:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     color: var(--active-text-btn-dark-theme);
     background: #FFFFFF;
 }
@@ -129,11 +132,9 @@ body {
 }
 
 .adventages-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--text-color);
 }
 
 /* END OUR ADVENTAGES SECTION*/
@@ -156,12 +157,10 @@ body {
 }
 
 .our-team-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-color);
 }
 
 /* END OUR TEAM SECTION */
@@ -173,12 +172,11 @@ body {
 }
 
 .portfolio-filter-btn {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
+    line-height: 1.625;
     letter-spacing: 0.03em;
     color: var(--text-btn-white-theme);
     background: #F5F4FA;
@@ -199,11 +197,9 @@ body {
 }
 
 .project-item-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: var(--text-color);
 }
 
 
@@ -216,7 +212,6 @@ body {
 }
 
 .footer-list-address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -225,7 +220,6 @@ body {
 
 .footer-list-mail,
 .footer-list-tel {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
